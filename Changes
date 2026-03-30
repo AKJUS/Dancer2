@@ -1,6 +1,10 @@
 {{$NEXT}}
 
     [ BUG FIXES ]
+    * GH #1784: Fix UTF-8 handling in Serializer::JSON for readonly
+      values (Russell @veryrusty Jenkins)
+    * GH #1790: Fix infinite recursion into blessed objects in JSON
+      Serializer (Russell @veryrusty Jenkins)
     * PR #1791: Send correct error codes in send_file (Anton Lundin)
 
     [ ENHANCEMENTS ]
