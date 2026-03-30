@@ -1182,8 +1182,8 @@ sub send_file {
         $err_response->(403) if !$dir->realpath->subsumes($file_path);
 
         # other error checks
-        $err_response->(403) if !$file_path->exists;
-        $err_response->(404) if !$file_path->is_file;
+        $err_response->(404) if !$file_path->exists;
+        $err_response->(403) if !$file_path->is_file;
         $err_response->(403) if !-r $file_path;
 
         # Read file content as bytes
