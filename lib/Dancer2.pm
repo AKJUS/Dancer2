@@ -290,6 +290,7 @@ We are also on IRC: #dancer on irc.perl.org.
     Andrew Inishev
     Andrew Solomon
     Andy Jack
+    Anton Lundin
     Ashvini V
     B10m
     Bas Bloemsaat
